@@ -11282,4 +11282,13 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
+.back__link {
+  text-decoration: none;
+  color: black !important;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
