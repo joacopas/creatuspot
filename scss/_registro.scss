@@ -4,6 +4,6 @@ $brd-radius: 10px;
 
 @each $i in control, select {
   .form-#{$i} {
-    border: 3px solid $btn-color;
+    border: 1px solid $br-color;
   }
 }

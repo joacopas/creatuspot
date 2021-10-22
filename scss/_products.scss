@@ -30,4 +30,13 @@ $brd-radius: 10px;
 .card:hover {
   background-color: var(--bs-body-color);
   transform: scale(1.07);
+  transition: all ease-in-out 600ms;
+}
+
+.price {
+  margin-bottom: 0;
+}
+
+.payment {
+  margin-bottom: 0;
 }

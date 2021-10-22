@@ -11151,7 +11151,7 @@ h2 {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #b3afaf;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 0;
 }
@@ -11215,6 +11215,25 @@ a {
   color: #ffffff;
 }
 
+.fas {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.carrito :hover {
+  background-color: dimgray;
+}
+
+.carrito_i {
+  scale: 1.1;
+  margin-top: 2px;
+}
+
 .productos-h1 {
   margin-top: 3rem !important;
   margin-bottom: 2rem;
@@ -11243,14 +11262,23 @@ a {
 .card:hover {
   background-color: var(--bs-body-color);
   transform: scale(1.07);
+  transition: all ease-in-out 600ms;
+}
+
+.price {
+  margin-bottom: 0;
+}
+
+.payment {
+  margin-bottom: 0;
 }
 
 .form-control {
-  border: 3px solid #0088a9;
+  border: 1px solid var(--bs-body-color);
 }
 
 .form-select {
-  border: 3px solid #0088a9;
+  border: 1px solid var(--bs-body-color);
 }
 
 .nosotros {
@@ -11272,6 +11300,10 @@ a {
 .nosotros__link:hover {
   color: #ffffff;
   background-color: dimgray;
+}
+
+.container__nosotros {
+  height: 100vh;
 }
 
 .error__title {

@@ -31,3 +31,22 @@ $brd-radius: 10px;
   background-color: $btn-color;
   color: #ffffff;
 }
+
+.fas {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  margin-left: 1rem;
+  border-radius: $brd-radius;
+}
+
+.carrito :hover {
+  background-color: rgb(105, 105, 105);
+}
+
+.carrito_i {
+  scale: 1.1;
+  margin-top: 2px;
+}
