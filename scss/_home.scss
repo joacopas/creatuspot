@@ -6,9 +6,10 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .nav-item {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+  .nav__item {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+    font-size: 15px;
   }
 }
 

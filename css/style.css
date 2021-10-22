@@ -11121,9 +11121,10 @@ textarea.form-control-lg {
   }
 }
 @media screen and (max-width: 1200px) {
-  .nav-item {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+  .nav__item {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+    font-size: 15px;
   }
 }
 img {
@@ -11271,6 +11272,50 @@ a {
 
 .payment {
   margin-bottom: 0;
+}
+
+fieldset {
+  border: 1px solid dimgray;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.product_img {
+  display: flex;
+  padding: 1rem;
+}
+.product_img .img-product {
+  width: 100%;
+  height: 600px !important;
+  object-fit: cover;
+}
+
+.product_info {
+  display: flex;
+  padding: 1rem;
+  align-items: flex-start;
+  text-align: left;
+  color: white;
+}
+
+.card_unica {
+  padding: 10px;
+  background-color: dimgray;
+  box-shadow: 10px 14px 15px 3px #888686;
+  border-radius: 10px;
+}
+.card_unica .btn-buy {
+  border: none;
+  border-radius: 10px;
+  background-color: #0088a9;
+  color: #ffffff;
+  align-items: flex-end !important;
+}
+.card_unica .btn-buy:hover {
+  background-color: var(--bs-body-color);
+  border: none;
+  color: #ffffff;
 }
 
 .form-control {
