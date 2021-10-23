@@ -11272,6 +11272,8 @@ a {
 
 .payment {
   margin-bottom: 0;
+  margin-top: 1rem;
+  color: black;
 }
 
 fieldset {
