@@ -11119,6 +11119,11 @@ textarea.form-control-lg {
     padding-top: 2rem;
     padding-bottom: 1rem;
   }
+
+  .nav_redes {
+    justify-content: center;
+    margin: 1rem auto;
+  }
 }
 @media screen and (max-width: 1200px) {
   .nav__item {
@@ -11182,6 +11187,10 @@ a {
   justify-content: center;
   scale: 1.5;
   padding-top: 3rem;
+}
+
+.container {
+  height: 100%;
 }
 
 .navbar-nav {
@@ -11350,7 +11359,7 @@ fieldset {
 }
 
 .container__nosotros {
-  height: 100vh;
+  height: 100%;
 }
 
 .error__title {
