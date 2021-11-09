@@ -1,4 +1,5 @@
 # Crea Tu Spot
  ## Tienda Online creada con Bootstrap v.5 y SASS.
  ### Autor: Joaquin Pastor
-![screenshot](https://user-images.githubusercontent.com/89076798/137233496-19eebfe7-3325-415d-b53c-f1d8282b803e.jpg)
+
+![image](https://user-images.githubusercontent.com/89076798/140931981-d1c05c2b-09e7-42b3-95fc-fd42471b592e.png)
